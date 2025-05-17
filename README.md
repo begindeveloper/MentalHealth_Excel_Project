@@ -118,7 +118,7 @@ pip install -r requirements.txt
 ##  Author
 
 **Mary Eyeson**
-Data Analysis & Machine Learning Enthusiast
- Dallas, TX
+ * Data Analysis & Machine Learning Enthusiast
+ * Dallas, TX
 
 ---
