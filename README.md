@@ -1,62 +1,124 @@
 # Mental Health Prediction Using Machine Learning
-A machine learning project using AutoGluon to predict depression based on mental health survey data. The goal is to leverage automated ML to identify key features affecting mental health and evaluate predictive models for accuracy and interpretability.
 
+A machine learning project using **AutoGluon** to predict depression based on mental health survey data. The goal is to leverage automated ML to:
+
+* Identify key features affecting mental health
+* Evaluate and compare predictive models
+* Optimize for accuracy and interpretability
+
+---
 
 ## Dataset
-Dataset: [kaggle.com]
-📊 Dataset: Includes various psychological and demographic features.
-🧪 Task: Binary classification — Predict if an individual is likely to experience depression
-Target Feature: Depression
-Rows: 27901, Columns: 20
-Features include: Age, Gender, Stress, Sleep, Exercise, etc.
 
+**Source:** \[Kaggle.com]
+This dataset includes various psychological and demographic features.
+
+* **Task:** Binary classification — Predict if an individual is likely to experience depression
+* **Target Feature:** `Depression`
+* **Size:** 27,901 rows × 20 columns
+* **Features Include:**
+
+  * Age
+  * Gender
+  * Academic Pressure
+  * Financial Stress
+  * Suicidal Thoughts
+  * Sleep Quality
+  * Exercise
+  * Dietary Habits
+
+---
 
 ## Features
-📊 Data Visualization: Heatmaps, bar plots, and confusion matrix
-🧹 Feature Engineering: Handling missing values, encoding, etc.
-⚙️ AutoML with AutoGluon: Fast model training and tuning
-📈 Model Evaluation: Accuracy, feature importance, leaderboard
-🧪 Confusion Matrix: Visual check of prediction performance
 
-**Top Features:**  
-  ![Feature Importance](confusionmatrix_depression.png)
-- **Confusion Matrix:**  
-  ![Confusion Matrix](featureimport_depress.png)
+*  **Data Visualization:** Heatmaps, bar plots, and confusion matrix
+*  **Feature Engineering:** Handling missing values, encoding categorical features
+*  **AutoML with AutoGluon:** Fast training, hyperparameter tuning, and model selection
+*  **Model Evaluation:**
 
+  * Accuracy
+  * Feature importance
+  * Leaderboard comparison
+*  **Confusion Matrix:** Visual check of prediction performance
 
-## 📌 How to Run
-Clone this repo:
-git clone https://github.com/yourusername/Mentalhealth_ML.git
-cd Mentalhealth_ML
+---
 
-Install dependencies:
-pip install -r requirements.txt
+##  How to Run
 
-Run the notebook:
-Open Mentalhealth_ML.ipynb in Jupyter or VSCode
-Run all cells step by step
+1. **Clone this repo:**
 
-## Key Outcomes:
-Accuracy: 90%
-Most important features: Have you ever had suicidal thoughts?, Academic Pressure, Financial Stress, Age, Dietary Habits
+   ```bash
+   git clone https://github.com/yourusername/Mentalhealth_ML.git
+   cd Mentalhealth_ML
+   ```
 
-## 🔍 Visualizations
-Confusion Matrix
-Feature Importance
+2. **Install dependencies:**
 
-## 💡 Future Improvements
-Improve feature engineering with more external data
-Use Explainable AI (e.g., SHAP values) for deeper insights
-Convert the model into an API/web app
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-##  📚 Requirements:
+3. **Run the notebook:**
+
+   * Open `Mentalhealth_ML.ipynb` in Jupyter or VSCode
+   * Run all cells step by step
+
+---
+
+##  Key Outcomes
+
+*  **Accuracy:** \~90%
+*  **Most Important Features:**
+
+  * Suicidal Thoughts
+  * Academic Pressure
+  * Financial Stress
+  * Age
+  * Dietary Habits
+
+---
+
+##  Visualizations
+
+*  **Feature Importance:**
+  ![Feature Importance](featureimport_depress.png)
+
+*  **Confusion Matrix:**
+  ![Confusion Matrix](confusionmatrix_depression.png)
+
+---
+
+##  Future Improvements
+
+* Improve feature engineering using external datasets (e.g., clinical, behavioral)
+* Apply Explainable AI techniques (e.g., SHAP) for transparency
+* Deploy as an API or interactive web application
+
+---
+
+##  Requirements
+
+```
+autogluon
+scikit-learn
 pandas
 matplotlib
 seaborn
-scikit-learn
-autogluon
+jupyterlab
+```
 
-##  👩🏾‍💻 Author
-Mary Eyeson
+You can install everything using:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+##  Author
+
+**Mary Eyeson**
 Data Analysis & Machine Learning Enthusiast
-📍 Dallas, TX
+ Dallas, TX
+
+---
