@@ -81,10 +81,10 @@ This dataset includes various psychological and demographic features.
 ##  Visualizations
 
 *  **Feature Importance:**
-  ![Feature Importance](featureimport_depress.png)
+  ![Feature Importance](imgs/featureimport_depress.png)
 
 *  **Confusion Matrix:**
-  ![Confusion Matrix](confusionmatrix_depression.png)
+  ![Confusion Matrix](imgs/confusionmatrix_depression.png)
 
 ---
 
